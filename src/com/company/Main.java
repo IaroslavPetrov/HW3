@@ -4,29 +4,29 @@ public class Main {
 
     public static void main(String[] args) {
 
-	byte bananas = 5;
-    short milk100g = 2;
-    int iceCream = 2;
-    long eggs = 4L;
-    float a = 23.45f;
-    double b = 32.12;
+        byte bananas = 5;
+        short milk100g = 2;
+        int iceCream = 2;
+        long eggs = 4L;
+        float a = 23.45f;
+        double b = 32.12;
 
-    float weightFirstBoxer = 78.2f;
-    float weightSecondBoxer = 82.7f;
-    float allWeightBoxer = weightFirstBoxer + weightSecondBoxer;
-    System.out.println("Общий вес боксеров " + allWeightBoxer + " кг");
-    float deltaWeightBoxer = weightSecondBoxer - weightFirstBoxer;
-    System.out.println("Разница веса между боксерами " + deltaWeightBoxer + " кг");
+        float weightFirstBoxer = 78.2f;
+        float weightSecondBoxer = 82.7f;
+        float allWeightBoxer = weightFirstBoxer + weightSecondBoxer;
+        System.out.println("Общий вес боксеров " + allWeightBoxer + " кг");
+        float deltaWeightBoxer = weightSecondBoxer - weightFirstBoxer;
+        System.out.println("Разница веса между боксерами " + deltaWeightBoxer + " кг");
 
-    byte weightBanana = 80;
-    byte weightMilk = 105;
-    byte weghtIceCream = 100;
-    byte weghtEggs = 70;
-    int totalBananas = bananas * weightBanana;
-    int totalMilk = milk100g * weightMilk;
-    int totalIceCream = iceCream * weghtIceCream;
-    long totalEggs = eggs * weghtEggs;
-    long totalBrekfastWeght = totalBananas + totalMilk + totalIceCream + totalEggs;
+        byte weightBanana = 80;
+        byte weightMilk = 105;
+        byte weghtIceCream = 100;
+        byte weghtEggs = 70;
+        int totalBananas = bananas * weightBanana;
+        int totalMilk = milk100g * weightMilk;
+        int totalIceCream = iceCream * weghtIceCream;
+        long totalEggs = eggs * weghtEggs;
+        long totalBrekfastWeght = totalBananas + totalMilk + totalIceCream + totalEggs;
         System.out.println("Вес завтрака " + totalBrekfastWeght + " г");
         long brekfastWeghtKg = totalBrekfastWeght / 1000;
         System.out.println("Вес завтрака " + brekfastWeghtKg + " кг");
