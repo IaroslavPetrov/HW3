@@ -47,9 +47,9 @@ public class Main {
         double indexSalaryMary = currentSalaryMary * 0.1 + currentSalaryMary;
         double indexSalaryDenis = currentSalaryDenis * 0.1 + currentSalaryDenis;
         double indexSalaryChristy = currentSalaryChristy * 0.1 + currentSalaryChristy;
-        double deltaSalaryMary = indexSalaryMary - currentSalaryMary;
-        double deltaSalaryDenis = indexSalaryDenis - currentSalaryDenis;
-        double deltaSalaryChristy = indexSalaryChristy - currentSalaryChristy;
+        double deltaSalaryMary = indexSalaryMary - currentSalaryMary * 12;
+        double deltaSalaryDenis = indexSalaryDenis - currentSalaryDenis * 12;
+        double deltaSalaryChristy = indexSalaryChristy - currentSalaryChristy * 12;
         System.out.println("Маша теперь получает " + indexSalaryMary + " рублей. Годовой доход вырос на " + deltaSalaryMary + " рублей");
         System.out.println("Денис теперь получает " + indexSalaryDenis + " рублей. Годовой доход вырос на " + deltaSalaryDenis + " рублей");
         System.out.println("Кристина теперь получает " + indexSalaryChristy + " рублей. Годовой доход вырос на " + deltaSalaryChristy + " рублей");
